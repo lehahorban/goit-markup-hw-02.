@@ -30,7 +30,18 @@ body {
 .header-link:focus {
   color: var(--accent-color);
 }
-
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--accent-color);
+}
+.link-tel:hover,
+.link-tel:focus {
+  color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #188ce8;
+}
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -44,7 +55,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  color: var(--second-text-color);
 }
 .link-tel {
   font-weight: 500;
@@ -161,4 +172,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
+}
+.hero {
+  text-align: center;
 }
