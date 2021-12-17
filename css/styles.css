@@ -5,6 +5,8 @@
   --accent-color: #2196f3;
   --first-title-color: #ffffff;
   --footer-text-color: rgba(255, 255, 255, 0.6);
+  --btn-hover-color: #188ce8;
+  --btn-second-color: #f5f4fa;
 }
 body {
   font-family: 'Robboto', sans-serif;
@@ -40,7 +42,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 .header-link {
   font-weight: 500;
@@ -175,4 +177,41 @@ body {
 }
 .hero {
   text-align: center;
+}
+/* --------------------------------------Портфолио -------------------------------*/
+.main-list {
+  list-style: none;
+}
+.main-link {
+  list-style: none;
+}
+.mains-btn {
+  background-color: var(--accent-color);
+  color: var(--first-title-color);
+}
+.mains-btn:hover,
+.mains-btn:focus {
+  background-color: var(--btn-hover-color);
+}
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--accent-color);
+}
+.main-btn {
+  background-color: var(--btn-second-color);
+  color: var(--first-text-color);
+}
+.main-item {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--first-text-color);
+}
+.main-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
