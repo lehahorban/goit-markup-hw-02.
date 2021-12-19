@@ -12,7 +12,7 @@
   --background-items-color: #f5f4fa;
 }
 body {
-  font-family: 'Robboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .list {
   list-style: none;
@@ -130,6 +130,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--first-title-color);
+  text-transform: uppercase;
 }
 .title {
   background-color: var(--background-item-color);
@@ -147,6 +148,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
+  text-transform: uppercase;
 }
 .title-text {
   font-weight: normal;
@@ -207,7 +209,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--footer-text-color);
+  color: var(--first-title-color)
 }
 .footer-address:hover,
 .footer-address:focus {
